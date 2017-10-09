@@ -1,6 +1,3 @@
-#!/usr/bin/env python
-# -*- coding: utf-8 -*-
-
 """
 Tests are performed using the pytest package. To do this, run py.test 
 in the root directory of the project.
