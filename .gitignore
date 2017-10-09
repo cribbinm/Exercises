@@ -1,0 +1,6 @@
+*.pyc
+*~
+*.cache
+__pycache__
+scurri
+notes.txt
