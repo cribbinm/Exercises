@@ -12,7 +12,7 @@ ThreeFive
 =========
 > Write a program that prints the numbers from 1 to 100. But for multiples of three print “Three” instead of the number and for the multiples of five print “Five”. For numbers which are multiples of both three and five print “ThreeFive”.
 
-The solution to this is found by running threefive/threefive.py. The tests for this code are in tests/test_threefive.py. The tests can be run using py.test as mentioned above.
+The solution to this is found by running threefive/threefive.py. The tests for this code are in tests/test_threefive.py. The tests can be run using `py.test` as mentioned above.
 
 Postcoder
 =========
@@ -25,8 +25,10 @@ In checkpostcode.py, there is a class which creates a postcode object. There is 
  
 The validator can be used with
 
-```from postcoder import CheckPostcode
+```
+from postcoder import CheckPostcode
 
-CheckPostcode('CO4 3SQ').validator()```
+CheckPostcode('CO4 3SQ').validator()
+```
 
-The tests for this code are in tests/test_postcoder.py. The tests can be run using py.test as mentioned above.
+The tests for this code are in tests/test_postcoder.py. The tests can be run using `py.test` as mentioned above.
