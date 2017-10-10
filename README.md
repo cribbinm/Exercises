@@ -12,7 +12,7 @@ ThreeFive
 =========
 > Write a program that prints the numbers from 1 to 100. But for multiples of three print “Three” instead of the number and for the multiples of five print “Five”. For numbers which are multiples of both three and five print “ThreeFive”.
 
-The solution to this is found by running threefive/threefive.py. The tests for this code are in tests/test_threefive.py. The tests can be run using `py.test` as mentioned above.
+The solution to this is found by running `python threefive/threefive.py`. The tests for this code are in tests/test_threefive.py. The tests can be run using `py.test` as mentioned above.
 
 Postcoder
 =========
