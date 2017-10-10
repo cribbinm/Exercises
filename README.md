@@ -21,12 +21,12 @@ Postcoder
 
 In checkpostcode.py, there is a class which creates a postcode object. There is then a method in this class called 'validator, which checks the validity of a postcode using the below pattern provided by the UK government.
 
- > ^([Gg][Ii][Rr] 0[Aa]{2})|((([A-Za-z][0-9]{1,2})|(([A-Za-z][A-Ha-hJ-Yj-y][0-9]{1,2})|(([A-Za-z][0-9][A-Za-z])|([A-Za-z][A-Ha-hJ-Yj-y][0-9]?[A-Za-z])))) [0-9][A-Za-z]{2})$
+`^([Gg][Ii][Rr] 0[Aa]{2})|((([A-Za-z][0-9]{1,2})|(([A-Za-z][A-Ha-hJ-Yj-y][0-9]{1,2})|(([A-Za-z][0-9][A-Za-z])|([A-Za-z][A-Ha-hJ-Yj-y][0-9]?[A-Za-z])))) [0-9][A-Za-z]{2})$`
  
 The validator can be used with
 
-`from postcoder import CheckPostcode
+```from postcoder import CheckPostcode
 
-CheckPostcode('CO4 3SQ').validator()`
+CheckPostcode('CO4 3SQ').validator()```
 
 The tests for this code are in tests/test_postcoder.py. The tests can be run using py.test as mentioned above.
