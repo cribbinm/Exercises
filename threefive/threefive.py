@@ -1,5 +1,10 @@
-# Function which will replace 
+# Function which will replace multiples of 3 with 'Three', multiples of 5 with 'Five', and multiples of 3 and 5 with 'ThreeFive'
+
 def replace(num):
+    """
+    Input: number (int)
+    Output: replaced number (string)
+    """
     sub = ''
     if num % 3 == 0:
         sub += 'Three'

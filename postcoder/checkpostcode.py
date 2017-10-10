@@ -25,6 +25,3 @@ class CheckPostcode(object):
         POSTCODE_REGEX = re.compile(self.pattern)
         postcode = self.postcode.strip()# Remove whitespace character from beginning and end.
         return POSTCODE_REGEX.match(postcode) != None
-
-    # def formatter(self):
-
