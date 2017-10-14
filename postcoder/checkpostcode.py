@@ -41,9 +41,13 @@ class UK(object):
 
     # Check validity of inward code
     def incode_validator(self):
-        # The inward code will always be the last 3 digits  of the postcode. We include the space as part of the inward code so that a code without a space will not return True
+        """
+        The inward code will always be the last 3 digits  of the postcode. 
+        We include the space as part of the inward code so that a code without a space will not return True.
+        """
         incode = self.postcode[-4:]
         INCODE_REGEX = re.compile(self.INCODE_PATTERN)
+        # Return an error if no space before inward code
         if  incode[0] != ' ':
             print('There is no space separating the inward and outward code')
             return False
@@ -58,6 +62,7 @@ class UK(object):
         """
         If postcode is valid, this will return True, otherwise False.
         """
+        # Check postcode length
         if len(self.postcode) > 8:
             print('Postcode is too long')
             return False
