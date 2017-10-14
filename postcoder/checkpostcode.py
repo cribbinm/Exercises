@@ -61,7 +61,7 @@ class UK(object):
         if len(self.postcode) > 8:
             print('Postcode is too long')
             return False
-        if len(self.postcode) < 6:
+        elif len(self.postcode) < 6:
             print('Postcode is too short')
             return False
         else:
