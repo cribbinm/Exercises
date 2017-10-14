@@ -1,1 +1,1 @@
-from .checkpostcode import CheckPostcode
+from .checkpostcode import UK
